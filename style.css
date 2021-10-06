@@ -1,0 +1,54 @@
+body
+{
+    margin: 0;
+    position: relative;
+    background-color: black;
+}
+.main
+{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    box-sizing: border-box;
+    position: fixed;
+    top: 60px;
+    left: 30%;
+    background-image: url('./img/analogClock2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+}
+.main-h
+{
+    width: 10px;
+    height: 120px;
+    background-color: black;
+    border-radius: 5px;
+    position: relative;
+    left: 296px;
+    top: 180px;
+    transform-origin: bottom;
+}
+.main-m
+{
+    width: 6px;
+    height: 160px;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    left: 297.9px;
+    top: 18px;
+    transform-origin: bottom;
+}
+.main-s
+{
+    width: 3px;
+    height: 210px;
+    background-color: black;
+    border-radius: 1.5px;
+    position: relative;
+    left: 299.6px;
+    top: -194px;
+    transform-origin: bottom;
+}
